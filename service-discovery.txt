@@ -1,0 +1,22 @@
+service doscovery arises when resources or services need to talk to each other
+eg database and server
+
+u"ll need servic discvery if
+u need zero downtime
+runng a couple of micro services
+deploying to serveral enviroments eg dev/staging/ephemeral/production
+
+
+
+the idea for downtime deployment
+start a new version and wait until they are up
+divert the trafic to it and close old version
+
+
+#another aproach is to store ips on a hashtable
+
+#APPLICATION PERFOMANCE management
+logg agrgations : collects loggs from all microservice into a dashboard that can be search
+
+metrics aggregation is important for debugging
+

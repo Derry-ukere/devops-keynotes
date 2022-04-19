@@ -1,0 +1,27 @@
+# notes about config files
+
+* the cofig file tells kubernete  about deployments, services and pods
+  that we want to create;
+
+* the config file is written in yaml syntax
+
+* files are always stored with our project source code;
+
+* do not create objects without config files
+
+
+
+# notes about terminology in kubernetes
+Cluster : kubernates cluster is a collections of node
+and a master to manage al thos nodes
+
+node : a vritual machine that our containers run on;
+
+pod : more or less a running container this can run multiple containers;
+
+deployment :rules monitor set of pods make sure they are running
+and restart them if neccessary
+
+service : this is use to provide and easy to remember url
+for accessing running containers
+

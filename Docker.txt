@@ -1,0 +1,25 @@
+# Basic docker commands
+
+docker build .
+#Builds and image based on the docker file 
+in the current directory locally
+
+docker build -t derryukere/nodeApp .
+#Builds and image based on the docker 
+file in the current directory
+
+docker run [image id or image tage]
+#creates and start a cntainer based on 
+the image tag provided
+
+docker run it[image id or tag][cmd]
+#same as above but this overides default commands
+
+docker ps 
+#print out infomation about running containers
+
+docker exec -it[container id][cmd]
+#exec the given command in a container
+
+docker logs [container id]
+print out logs from a given container

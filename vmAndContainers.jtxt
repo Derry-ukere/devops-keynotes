@@ -1,0 +1,55 @@
+#what linux keeps track
+memory
+cpu
+disk
+devices
+
+the idea of a containers to is to provide a fake linux
+
+type of deployment strategies
+rolling deployment involves deploying a version of an application without causing down time
+
+steps in tollimmg deployment
+create an instance of the new version of the backend
+wait until the new copy is up
+delete instance of the old version of the backend
+if any instance of the old version exist go to step one
+
+
+benfits 
+well supported
+no huge burst
+easy to reverse
+
+cons 
+speed
+api compatability
+
+
+blue/ green deployment
+easy to understand
+powerful
+extendable to workflows
+
+
+rainbow deployments
+canary deployments
+
+
+auto-scaling
+auto ssling automate horizontal scaling to ensure that the number of workers
+is proportionl to load on the system
+eg 
+aws ec2 spot instances
+kubernates horizontal pod auto scaling
+
+
+tools prometheus --- go fr metrics aggregation
+
+
+
+important server resources metrics
+database sizee and max database size
+web server memory
+network throughput and capacity
+tls connecttin and expiry time

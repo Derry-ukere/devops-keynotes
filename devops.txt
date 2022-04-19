@@ -1,0 +1,115 @@
+#what is devops
+DevOps is a set of practices that combines 
+software development and IT operations. 
+
+
+
+#what can be automates?
+ci
+security scanning
+automated test running
+automate notification to reviewers
+
+
+
+#deployment automation
+deploy a feature
+start new versions
+roll back to old versions
+
+#top tools 
+spinnaker, herness
+
+#application performance management;
+metrics: numeric measure of key numbers in production
+logging : text descriotion of what is happening in the sofware
+monitoring : takes logs and metrics and convert them to healt metrics
+alerting : 
+
+
+#free stacks for small websites in development
+github
+netlify
+vercel
+layerci
+
+#for organizations
+github
+sentry : used for catching errors
+pagerduty
+codecov
+circle ci
+bitrise
+elastic search
+logstach
+kabina
+pingdom : to check if certain pages are taking slow to respond
+terraform : automate deployment process
+lounch darkly
+
+
+#TDD
+unit test : test individual component work
+integration test: test if two components comminncate
+system test : test the whole system
+acceptance test
+
+
+#ci
+ci helps in in devops automation and code collaboration
+ci improves development speed
+ci improves customer experience
+
+
+xcersie
+
+1. install layerci on  a project
+
+
+#what is code coverage
+code coverage is use to represent the 
+number of files and the tests that are been run in that file
+
+type of line in a codebase
+synthetic line
+logic line with side effect
+branch lines
+
+code coverage = ratio of line of code with test (none syntax line) / lines of code(none syntax line)
+
+#when to care about test coverage
+when the platform has users 
+working with developers that arent immediately trust worth
+working on a large code base with a lot of testable components
+
+
+rules of code coverage
+code coverage must note reduce
+code owners must test files
+
+
+code coverage measurement tools
+codecov
+coveralls
+code climate
+
+
+#linting best practices
+linters make sure that obvious bug do not make it to production
+
+a team of more than one developers should set up linting
+
+
+#ephemeral enviroment
+this is a temporay deployment enviroment that have a self contained version of the application
+generally every feature branch
+
+
+#how to ephemeral database work
+they are pre populated
+undoable or easy to represent
+proper database migration
+
+
+#xcersie
+set up ephemeral enviroment
